@@ -253,7 +253,7 @@ cmd({
     }
     let _0x367e44 = await cinesubz_info(_0x396937);
     const _0x2bc15c = (await axios.get("https://raw.githubusercontent.com/THEMISADAS2007/MOVIE-VISPER-DATABASE/refs/heads/main/User/main_var.json")).data;
-    let _0x3bb590 = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x367e44.data.title || "N/A") + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x367e44.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x367e44.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x367e44.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x367e44.data.runtime || 'N/A') + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x367e44.data.subtitle_author || 'N/A') + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* _" + (_0x367e44.data.genres.join(", ") || 'N/A') + "_\n\n> 🌟 Follow us : *" + _0x2bc15c.chlink + "*\n\n> _*MOVIE VISPER MULTIDEVICE*_\n";
+    let _0x3bb590 = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x367e44.data.title || "N/A") + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x367e44.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x367e44.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x367e44.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x367e44.data.runtime || 'N/A') + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x367e44.data.subtitle_author || 'N/A') + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* _" + (_0x367e44.data.genres.join(", ") || 'N/A') + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*";
     await _0xe2c85c.sendMessage(config.JID, {
       'image': {
         'url': _0x367e44.data.image.replace("-200x300", '')
@@ -490,7 +490,7 @@ cmd({
     }
     let _0x4227d3 = await fetchJson("https://darksadasyt-new-mv-site-info.vercel.app/?url=" + _0x222acc);
     const _0x75ec69 = (await axios.get("https://raw.githubusercontent.com/THEMISADAS2007/MOVIE-VISPER-DATABASE/refs/heads/main/User/main_var.json")).data;
-    let _0x17774f = "*☘️ 𝗧ɪᴛʟᴇ ➮*  _" + (_0x4227d3.title || "N/A") + "_\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮*  _" + (_0x4227d3.date || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x4227d3.subtitle_author || "N/A") + "_\n\n> 🌟 Follow us : *" + _0x75ec69.chlink + "*\n\n> _*MOVIE VISPER MULTIDEVICE*_\n";
+    let _0x17774f = "*☘️ 𝗧ɪᴛʟᴇ ➮*  _" + (_0x4227d3.title || "N/A") + "_\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮*  _" + (_0x4227d3.date || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x4227d3.subtitle_author || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*";
     await _0xe9e03e.sendMessage(config.JID, {
       'image': {
         'url': _0x4227d3.image
@@ -850,10 +850,10 @@ cmd({
       'document': {
         'url': _0x37a51c
       },
-      'caption': "*🎬 Name :* " + _0x1d3dde + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n     ",
+      'caption': "🍧 " + _0x1d3dde + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n     ",
       'mimetype': "video/mp4",
       'jpegThumbnail': await (await fetch(_0x7a851c)).buffer(),
-      'fileName': _0x1d3dde + ".mp4"
+      'fileName': "🎬CK CineMAX🎬 -" + _0x1d3dde + ".mp4"
     });
     await _0x1140d3.sendMessage(_0x4b906b, {
       'react': {
@@ -890,7 +890,7 @@ cmd({
     }
     let _0x421fdf = await fetchJson("https://darksadas-yt-cineszub-tv-shows.vercel.app/?url=" + _0x2e7cb7 + "&apikey=pramashi");
     const _0x29470d = (await axios.get('https://raw.githubusercontent.com/THEMISADAS2007/MOVIE-VISPER-DATABASE/refs/heads/main/User/main_var.json')).data;
-    let _0x402a8a = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x421fdf.data.title || 'N/A') + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x421fdf.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x421fdf.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x421fdf.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x421fdf.data.runtime || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x421fdf.data.subtitle_author || "N/A") + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* " + (_0x421fdf.data.genres.join(", ") || "N/A") + "\n\n> 🌟 Follow us : *" + _0x29470d.chlink + "*\n\n> _*MOVIE VISPER MULTIDEVICE*_";
+    let _0x402a8a = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x421fdf.data.title || 'N/A') + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x421fdf.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x421fdf.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x421fdf.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x421fdf.data.runtime || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x421fdf.data.subtitle_author || "N/A") + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* " + (_0x421fdf.data.genres.join(", ") || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*";
     await _0x38dfb5.sendMessage(config.JID, {
       'image': {
         'url': _0x421fdf.data.image.replace("-200x300", '')
