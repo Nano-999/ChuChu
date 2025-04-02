@@ -780,7 +780,7 @@ async function fetchEpisodesWithRetry(_0x4b8ce9, _0x128971, _0x15b329, _0x472898
         'caption': "📺 Episode " + (_0x1779cd + 0x1) + " - " + _0x535e18 + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
         'jpegThumbnail': await (await fetch(_0x11c299)).buffer(),
         'mimetype': 'video/mp4',
-        'fileName': "🎬CK CineMAX🎬" + _0x1205ac
+        'fileName': "🎬CK CineMAX🎬 -" + _0x1205ac
       });
     } catch (_0x464956) {
       console.error("Error fetching Episode " + (_0x1779cd + 0x1) + ", Attempt " + _0x7e0232 + ':', _0x464956);
