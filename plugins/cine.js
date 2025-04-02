@@ -777,7 +777,7 @@ async function fetchEpisodesWithRetry(_0x4b8ce9, _0x128971, _0x15b329, _0x472898
       const _0x1205ac = _0x535e18 + "_Episode_" + (_0x1779cd + 0x1) + ".mp4";
       await _0x128971.sendMessage(config.JID, {
         'document': _0xa3251f,
-        'caption': "*📺 Episode " + (_0x1779cd + 0x1) + " - " + _0x535e18 + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
+        'caption': "📺 Episode " + (_0x1779cd + 0x1) + " - " + _0x535e18 + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
         'jpegThumbnail': await (await fetch(_0x11c299)).buffer(),
         'mimetype': 'video/mp4',
         'fileName': "🎬CK CineMAX🎬" + _0x1205ac
