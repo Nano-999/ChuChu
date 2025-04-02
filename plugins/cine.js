@@ -438,10 +438,10 @@ cmd({
     const _0x46933d = await resizeImage(_0x274e95, 0xc8, 0xc8);
     const _0x18c1e8 = {
       'document': _0x3252ba,
-      'caption': "*🎬 Name :* " + _0x4d2bd5 + "\n\n\n> _*MOVIE VISPER WA BOT*_",
+      'caption': "🍟 " + _0x4d2bd5 + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
       'jpegThumbnail': _0x46933d,
       'mimetype': "video/mp4",
-      'fileName': _0x4d2bd5 + ".mp4"
+      'fileName': "🎬CK CineMAX🎬" + _0x4d2bd5 + ".mp4"
     };
     await _0x231395.sendMessage(_0x8353e7, {
       'react': {
@@ -777,10 +777,10 @@ async function fetchEpisodesWithRetry(_0x4b8ce9, _0x128971, _0x15b329, _0x472898
       const _0x1205ac = _0x535e18 + "_Episode_" + (_0x1779cd + 0x1) + ".mp4";
       await _0x128971.sendMessage(config.JID, {
         'document': _0xa3251f,
-        'caption': "*📺 Episode " + (_0x1779cd + 0x1) + " - " + _0x535e18 + "*\n\n> _*MOVIE VISPER WA BOT*_",
+        'caption': "*📺 Episode " + (_0x1779cd + 0x1) + " - " + _0x535e18 + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
         'jpegThumbnail': await (await fetch(_0x11c299)).buffer(),
         'mimetype': 'video/mp4',
-        'fileName': _0x1205ac
+        'fileName': "🎬CK CineMAX🎬" + _0x1205ac
       });
     } catch (_0x464956) {
       console.error("Error fetching Episode " + (_0x1779cd + 0x1) + ", Attempt " + _0x7e0232 + ':', _0x464956);
