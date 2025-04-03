@@ -112,7 +112,7 @@ cmd({
     }
     let _0x4cccc0 = await cinesubz_info(_0x5dc8e2);
     console.log(cinesubz_info);
-    let _0x3c39be = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x4cccc0.data.title || "N/A") + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x4cccc0.data.date || 'N/A') + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x4cccc0.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x4cccc0.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x4cccc0.data.runtime || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x4cccc0.data.subtitle_author || "N/A") + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* " + (_0x4cccc0.data.genres.join(", ") || "N/A") + "\n";
+    let _0x3c39be = "*🏷️ *" + (_0x4cccc0.data.title || "N/A") + "*\n\n*📅 ʀᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x4cccc0.data.date || 'N/A') + "_\n*🌎 ᴄᴏᴜɴᴛʀʏ ➮* _" + (_0x4cccc0.data.country || "N/A") + "_\n*🌟 ʀᴀᴛɪɴɢ ➮* _" + (_0x4cccc0.data.imdb || "N/A") + "_\n*⏰ ʀᴜɴᴛɪᴍᴇ ➮* _" + (_0x4cccc0.data.runtime || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + "_\n*🎭 ɢᴇɴᴀʀᴇꜱ ➮* " + (_0x4cccc0.data.genres.join(", ") || "N/A") + "\n";
     if (_0x4cccc0.length < 0x1) {
       return await _0x858680.sendMessage(_0x2c06a4, {
         'text': "erro !"
@@ -253,7 +253,7 @@ cmd({
     }
     let _0x367e44 = await cinesubz_info(_0x396937);
     const _0x2bc15c = (await axios.get("https://raw.githubusercontent.com/THEMISADAS2007/MOVIE-VISPER-DATABASE/refs/heads/main/User/main_var.json")).data;
-    let _0x3bb590 = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x367e44.data.title || "N/A") + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x367e44.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x367e44.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x367e44.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x367e44.data.runtime || 'N/A') + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x367e44.data.subtitle_author || 'N/A') + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* _" + (_0x367e44.data.genres.join(", ") || 'N/A') + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
+    let _0x3bb590 = "🏷️ *" + (_0x367e44.data.title || "N/A") + "*\n\n*📅 ʀᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x367e44.data.date || "N/A") + "_\n*🌎 ᴄᴏᴜɴᴛʀʏ ➮* _" + (_0x367e44.data.country || "N/A") + "_\n*🌟 ʀᴀᴛɪɴɢ ➮* _" + (_0x367e44.data.imdb || "N/A") + "_\n*⏰ ʀᴜɴᴛɪᴍᴇ ➮* _" + (_0x367e44.data.runtime || 'N/A') + "_\n*🎭 ɢᴇɴᴀʀᴇꜱ ➮* _" + (_0x367e44.data.genres.join(", ") || 'N/A') + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
     await _0xe2c85c.sendMessage(config.JID, {
       'image': {
         'url': _0x367e44.data.image.replace("-200x300", '')
@@ -352,7 +352,7 @@ cmd({
       return await _0x1709cb("*please give me text !..*");
     }
     let _0x34c6db = await fetchJson("https://darksadasyt-new-mv-site-info.vercel.app/?url=" + _0x534f3f);
-    let _0x52810c = "*☘️ 𝗧ɪᴛʟᴇ ➮*  _" + (_0x34c6db.title || "N/A") + "_\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮*  _" + (_0x34c6db.date || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x34c6db.subtitle_author || "N/A") + '_';
+    let _0x52810c = "🏷️  *" + (_0x34c6db.title || "N/A") + "*\n\n*📅 ʀᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮*  _" + (_0x34c6db.date || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
     if (_0x34c6db.downloadLinks.length < 0x1) {
       return await _0xd58b55.sendMessage(_0x285724, {
         'text': "erro !"
@@ -490,7 +490,7 @@ cmd({
     }
     let _0x4227d3 = await fetchJson("https://darksadasyt-new-mv-site-info.vercel.app/?url=" + _0x222acc);
     const _0x75ec69 = (await axios.get("https://raw.githubusercontent.com/THEMISADAS2007/MOVIE-VISPER-DATABASE/refs/heads/main/User/main_var.json")).data;
-    let _0x17774f = "*☘️ 𝗧ɪᴛʟᴇ ➮*  _" + (_0x4227d3.title || "N/A") + "_\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮*  _" + (_0x4227d3.date || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x4227d3.subtitle_author || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
+    let _0x17774f = "🏷️ *" + (_0x4227d3.title || "N/A") + "*\n\n*📅 ʀᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮*  _" + (_0x4227d3.date || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
     await _0xe9e03e.sendMessage(config.JID, {
       'image': {
         'url': _0x4227d3.image
@@ -590,7 +590,7 @@ cmd({
       return await _0x25e4a3("*❗ This is a movie, please use .mv command.*");
     }
     let _0x429a61 = await fetchJson("https://darksadas-yt-cineszub-tv-shows.vercel.app/?url=" + _0x3cfbba + "&apikey=pramashi");
-    let _0x111e31 = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x429a61.data.title || "N/A") + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x429a61.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x429a61.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x429a61.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x429a61.data.runtime || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x429a61.data.subtitle_author || "N/A") + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* " + (_0x429a61.data.genres.join(", ") || "N/A") + "\n";
+    let _0x111e31 = "🏷️ *" + (_0x429a61.data.title || "N/A") + "*\n\n*📅 ʀᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x429a61.data.date || "N/A") + "_\n*🌎 ᴄᴏᴜɴᴛʀʏ ➮* _" + (_0x429a61.data.country || "N/A") + "_\n*🌟 ʀᴀᴛɪɴɢ ➮* _" + (_0x429a61.data.imdb || "N/A") + "_\n*⏰ ʀᴜɴᴛɪᴍᴇ ➮* _" + (_0x429a61.data.runtime || "N/A") + "_\n*🎭 ɢᴇɴᴀʀᴇꜱ ➮* " + (_0x429a61.data.genres.join(", ") || "N/A") + "\n";
     var _0x19cbe2 = [];
     _0x19cbe2.push({
       'buttonId': _0x4a9096 + "ctdetailss " + _0x3cfbba,
@@ -890,7 +890,7 @@ cmd({
     }
     let _0x421fdf = await fetchJson("https://darksadas-yt-cineszub-tv-shows.vercel.app/?url=" + _0x2e7cb7 + "&apikey=pramashi");
     const _0x29470d = (await axios.get('https://raw.githubusercontent.com/THEMISADAS2007/MOVIE-VISPER-DATABASE/refs/heads/main/User/main_var.json')).data;
-    let _0x402a8a = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x421fdf.data.title || 'N/A') + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x421fdf.data.date || "N/A") + "_\n*🌎 𝗖ᴏᴜɴᴛʀʏ ➮* _" + (_0x421fdf.data.country || "N/A") + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x421fdf.data.imdb || "N/A") + "_\n*⏰ 𝗥ᴜɴᴛɪᴍᴇ ➮* _" + (_0x421fdf.data.runtime || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + (_0x421fdf.data.subtitle_author || "N/A") + "_\n*🎭 𝗚ᴇɴᴀʀᴇꜱ ➮* " + (_0x421fdf.data.genres.join(", ") || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
+    let _0x402a8a = "🏷️ *" + (_0x421fdf.data.title || 'N/A') + "*\n\n*📅 ʀᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x421fdf.data.date || "N/A") + "_\n*🌎 ᴄᴏᴜɴᴛʀʏ ➮* _" + (_0x421fdf.data.country || "N/A") + "_\n*🌟 ʀᴀᴛɪɴɢ ➮* _" + (_0x421fdf.data.imdb || "N/A") + "_\n*⏰ ʀᴜɴᴛɪᴍᴇ ➮* _" + (_0x421fdf.data.runtime || "N/A") + "_\n*🎭 ɢᴇɴᴀʀᴇꜱ ➮* " + (_0x421fdf.data.genres.join(", ") || "N/A") + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*\n> ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *CK CineMAX*";
     await _0x38dfb5.sendMessage(config.JID, {
       'image': {
         'url': _0x421fdf.data.image.replace("-200x300", '')
